@@ -1,0 +1,18 @@
+[project]
+name = "github-guide"
+version = "0.1.0"
+description = "Imbalanced classification team project scaffold"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "scikit-learn>=1.4",
+    "imbalanced-learn>=0.12",
+    "xgboost>=2.0",
+    "shap>=0.45",
+    "streamlit>=1.39",
+    "joblib>=1.3",
+]
